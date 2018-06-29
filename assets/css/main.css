@@ -1,0 +1,237 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background:#FEFEFE;}
+
+.menu_bar {
+	display:none;
+}
+
+header {
+	width: 100%;
+
+}
+
+header nav {
+	background:#E6344A;
+	z-index:1000;
+	max-width: 100vw;
+	height: 15vh;
+	padding-left: 10%;
+}
+
+header nav ul {
+	list-style:none;
+	text-decoration: none;	
+}
+
+header nav ul li {
+	display:inline-block;
+	position: relative;
+
+}
+
+header nav ul li:hover {
+	background:#E6344A;
+	text-decoration:none;
+	list-style:none;
+}
+
+header nav ul li a {
+	margin-top: 17px;
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 10px 10px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+
+
+}
+
+header nav ul li a span {
+	margin-right:10px;
+}
+
+header nav ul li:hover .children {
+	display:block;
+}
+
+header nav ul li .children {
+	display: none;
+	background:#011826;
+	position: absolute;
+	width: 150%;
+	z-index:1000;
+}
+
+header nav ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+header nav ul li .children li a {
+	display: block;
+}
+
+header nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding-top:80px;
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:#E6344A;
+		z-index: 1000;
+	}
+
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+
+	header nav {
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+	}
+
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+
+	header nav ul li a {
+		display: block;
+	}
+
+	header nav ul li:hover .children {
+		display: none;
+	}
+
+	header nav ul li .children {
+		width: 100%;
+		position: relative;
+	}
+
+	header nav ul li .children li a {
+		margin-left:20px;
+	}
+
+	header nav ul li .caret {
+		float: right;
+	}
+}
+
+.title-activi{
+ text-align: center;
+ font-family: 'PT Sans Caption', sans-serif;
+ padding: 30px;
+}
+
+.redSocial{
+	text-align: center;
+	color: #ffff;
+}
+.fa{
+	margin: 30px;
+	color: #ffff;
+}	
+
+.logotipo{
+	margin-top: 1px;
+	text-shadow: 5px 5px  #a32129;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	margin-left: 65%;
+	font-family: 'Lobster', cursive;
+	font-size: 65px;
+	padding-top:15px:
+
+}
+h1{
+	text-align: center;
+}
+h6{
+	text-align: center;
+}
+footer{
+	width: 100vw;
+	height: 20vh;
+	background: #000;
+	margin:20px auto;
+}
+.fab{
+	text-align: none;
+	text-decoration: none;
+	font-size: 30px;
+	color: white;
+	padding: 2vw;	
+}
+
+.redSocial{
+	padding-top: 2vh;
+	padding-left: 20vw;
+	display: inline-block;
+	position: absolute;
+	margin:20px auto;
+}
+.redSocial a i{
+	color: #ffff;
+	text-align: center;
+}
+.suscripción{
+	font-family: 'Anton', sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+.btn-default {
+    color: #fff;
+    background-color: #e6414b;
+    border-color: #ccc;
+    width: 25vw;
+    font-size: 20px;
+    font-weight: bold;
+}
+.title-acces{
+	font-family: 'Permanent Marker', cursive;
+}

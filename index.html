@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Prueba de Selección</title>
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<!-- header -->
+	<header>
+<!-- menu responsive -->
+	
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="fas fa-bars"></span>Menú</a>
+		</div>
+
+		<nav>
+			<h1 class="logotipo">FreeSoul</h1>
+			<ul>
+
+				<li><a href="#formulario">Suscripcion</a></li>
+				<li><a href="#activi">Eventos</a></li>
+				<li class="submenu">
+					<a href="#">Tiendas<span class="caret icon-arrow-down6"></span></a>
+					<ul class="children">
+						<li><a href="#">Providencia</span></a></li>
+						<li><a href="#">Serena</a></li>
+						<li><a href="#">Atacama</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Servicios</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	
+
+		<!-- carrusel imagenes-->
+		<div class="container-fluit"> 
+		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <!-- Indicators -->
+		    <ol class="carousel-indicators">
+		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		      <li data-target="#myCarousel" data-slide-to="1"></li>
+		      <li data-target="#myCarousel" data-slide-to="2"></li>
+		    </ol><!-- Indicators -->
+
+		    <!-- imagenes slides -->
+		    <div class="carousel-inner">
+		      <div class="item active">
+		        <img src="assets/img/trekking1.jpg" alt="Los Angeles" style="width:100vw;">
+		      </div>
+
+		      <div class="item">
+		        <img src="assets/img/trekking2.jpg" alt="Chicago" style="width:100vw;">
+		      </div>
+		    
+		      <div class="item">
+		        <img src="assets/img/trekking3.jpg" alt="New york" style="width:100vw;">
+		      </div>
+		    </div><!-- imagenes slides -->
+				
+		    <!-- controles  -->
+		    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		      <span class="glyphicon glyphicon-chevron-left"></span>
+		      <span class="sr-only">Previous</span>
+		    </a>
+		    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		      <span class="glyphicon glyphicon-chevron-right"></span>
+		      <span class="sr-only">Next</span>
+		    </a>
+		  </div>
+		</div>
+<!-- Fin carrusel de imagenes -->
+	</header>
+<!-- Fin-header -->
+
+<!-- section -->
+	<section class="activities">
+		<div class="container">
+			
+			<!--accesorios-->
+			<div class="accesorios">
+			<h1 class="title-acces">Lo que Necesitas</h1>
+				<div class="row container">
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<img src="assets/img/zapaagarre.jpg">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<img src="assets/img/zapaagarre2.jpg">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<img src="assets/img/bolsotrekking.jpg">
+					</div>
+				</div>
+			</div>
+			<!--Finaccesorios-->
+			<!--actividades-->
+			<div class="actividades" id="activi">
+			<h1 class="title-acces">Actividades Summer Soul</h1>
+				<div class="row container">
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<img src="assets/img/actividades1.jpg">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<img src="assets/img/actividades2.png">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<img src="assets/img/actividades3.jpg">
+					</div>
+				</div>
+			</div>
+		<!--Finactividades-->
+
+
+			<div class="row container" id="formulario">
+				<h1 class="suscripción">¡SUSCRIBETE!</h1>
+				<h6>Si quieres participar y mantenerte informado de las actividades en forma gratuita, solo tienes que inscribirte al club de beneficios y ya ¡estas listo!</h6>		
+			</div><!-- FinRowContainer -->
+
+			<div class="row container">
+				<div class="text-center btn-sus"><!-- boton -->
+			    <a href="" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#orangeModalSubscription">¡Aqui!</a>
+				</div>
+			</div><!-- FinRowContainer -->
+
+
+<!-- formulario -->
+			<div class="modal fade" id="orangeModalSubscription" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  		<div class="modal-dialog modal-notify modal-warning" role="document">
+	      <!--Content-->
+	    	  <div class="modal-content">
+	          <!--Header-->
+	          <div class="modal-header text-center">
+	              <h4 class="modal-title white-text w-100 font-weight-bold py-2">Formulario de suscripción</h4>
+	              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	                  <span aria-hidden="true" class="white-text">&times;</span>
+	              </button>
+	          </div>
+
+	          <!--Body-->
+	          <div class="modal-body">
+	      		<label data-error="wrong" data-success="right" for="form2">Seleccione las categorias que le interesan</label>
+	            <div class="container">
+
+	            	<div class="row">
+	            		<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+	            			<div class="form-check">
+										  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+										  <label class="form-check-label" for="exampleRadios1">
+										    FÁCIL TREK
+										  </label>
+										</div>
+	            		</div>
+	          			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+	            			<div class="form-check">
+										  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+										  <label class="form-check-label" for="exampleRadios1">
+										    MODERADO TREK
+										  </label>
+										</div>
+	            		</div>
+	            	</div>
+
+	            	<div class="row">
+	            		<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+	            			<div class="form-check">
+										  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+										  <label class="form-check-label" for="exampleRadios1">
+										    EXTENUANTES TREK
+										  </label>
+										</div>
+	            		</div>
+	          			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+	            			<div class="form-check">
+										  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+										  <label class="form-check-label" for="exampleRadios1">
+										    ESCALADA LIBRE
+										  </label>
+										</div>
+	            		</div>
+	            	</div>
+
+	            	<div class="row">
+	            		<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+	            			<div class="form-check">
+										  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+										  <label class="form-check-label" for="exampleRadios1">
+										    ESCALADA EN ROCA
+										  </label>
+										</div>
+	            		</div>
+	          			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+	            			<div class="form-check">
+										  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+										  <label class="form-check-label" for="exampleRadios1">
+										    ESCALADA DEPORTIVA
+										  </label>
+										</div>
+	            		</div>
+	            	</div>
+	            </div><!-- FinContainer -->
+
+	              <div class="md-form"><!-- mail -->
+	                
+	                  <label data-error="wrong" data-success="right" for="form2">Ingresa sú nombre</label>
+	                    <input type="email" id="form2" class="form-control validate">
+	              </div><!-- FinMail -->
+	              <div class="md-form"><!-- mail -->
+	              		<label data-error="wrong" data-success="right" for="form2">Ingresa su mail</label>
+	                  <input type="email" id="form2" class="form-control validate">
+	                  
+	              </div><!-- FinMail -->
+	          </div>
+
+	          <!--FooterModal-->
+	          <div class="modal-footer justify-content-center">
+	              <a type="button" class="btn btn-outline-warning waves-effect">Send <i class="fa fa-paper-plane-o ml-1"></i></a>
+	          </div>
+	    		</div><!-- modal-content -->
+	  		</div><!-- modal dialog -->
+			</div><!-- modal fade -->
+<!-- FinFormulario -->
+	</section>
+<!-- Fin-section -->
+
+<!-- footer -->
+	<footer>
+		<div class="row redSocial">
+			<div class="col-xs-12">
+			<a href=""><i class="fab fa-facebook-square"></i></a>
+			<a href=""><i class="fab fa-twitter"></i></a>
+			<a href=""><i class="fab fa-instagram"></i></a>
+			<a href=""><i class="fab fa-ebay"></i></a>
+			
+		</div>
+
+	</footer>
+<!-- Fin-footer -->
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
